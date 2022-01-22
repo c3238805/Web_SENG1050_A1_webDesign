@@ -1,0 +1,33 @@
+<!--Assignment 1
+  SENG1050*/
+  NI ZENG*/
+  C3238805*/
+  DUE 18/09/2020*-->
+
+  <!ELEMENT goholiday (holidays*)>  
+  
+  <!ELEMENT holidays (luxury*)>
+  
+  <!ELEMENT luxury (packeage_name,description,cost,number_nights,popularity,accommodation,coupon_code?,reviews*,picture+,url+,travel_date?,saved?)>
+  
+  <!ELEMENT packeage_name (#PCDATA)>  
+  <!ELEMENT description (#PCDATA)>
+  <!ELEMENT cost (#PCDATA)>  
+  <!ELEMENT number_nights (#PCDATA )>
+  <!ELEMENT popularity (#PCDATA)>
+  
+  <!ELEMENT accommodation (#PCDATA)>
+  <!ATTLIST accommodation options (location|additional_cost) #REQUIRED>
+  
+  <!ELEMENT coupon_code (#PCDATA)>
+  <!ELEMENT reviews (#PCDATA)>  
+  <!ELEMENT picture (#PCDATA)>
+  <!ELEMENT url (#PCDATA)>
+  
+  <!ELEMENT travel_date (date,month,year)>
+  <!ELEMENT date (#PCDATA)>
+  <!ELEMENT month (#PCDATA)>
+  <!ELEMENT year (#PCDATA)>
+   
+  <!ELEMENT saved (#PCDATA)>   
+  <!ENTITY dollor "$">

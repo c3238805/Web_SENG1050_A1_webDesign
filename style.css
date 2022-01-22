@@ -1,0 +1,88 @@
+/*Assignment 1*/
+/*SENG1050*/
+/*NI ZENG*/
+/*C3238805*/
+/*DUE 18/09/2020*/
+
+body, html{font-family:Arial;font-size:15px;line-height:1.5;margin-left:1cm;margin-right:1cm}
+h1{background-image: url("img/head_backgroud.jpg" );}
+
+hr{border-width:medium;border-color:pink;border-top:1px;}
+img {opacity: 0.8;}
+img:hover {opacity: 1.0;}
+
+h1 {color:white;font-size:50px;text-align: center;font-family:Arial,sans-serif}
+h2 {font-size:30px;font-family:Arial;font-weight:800;margin:10px 0}
+
+.xml_link {text-align: right;margin-right:2cm}
+.menu {background-color:lightpink ;padding-left:1cm;padding-right:1cm;}
+.top_background {background-image: url("img/main_background.jpg" );color:white;}
+.welcome {font-size:35px;text-align: center}
+.destinations_title {background-image: url("img/main_background.jpg" );color:white;font-family:cursive;font-size:20px;border-width:medium; border-color:pink; border-style:double;padding-left:0.5cm;padding-right:0.5cm;}
+
+/* insert text to relavent pictures */
+
+.luxury .box{
+		
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+    }
+
+.luxury .box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0;
+        left: 0;
+        right: 1cm;
+        top: 0; /* Adjust this value to move the positioned div up and down */
+        text-align: left;
+        width: 3cm; /* Set the width of the positioned div */
+		background-color:black;
+		color:#fff;
+		padding-left:0.5cm;
+		padding-right:0.5cm;
+		;
+    }
+	
+.cruise .box{
+		
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+    }	
+	
+.cruise .box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0;
+        left: 0;
+        right: 1cm;
+        top: 0; /* Adjust this value to move the positioned div up and down */
+        text-align: left;
+        width: 4cm; /* Set the width of the positioned div */
+		background-color:black;
+		color:#fff;
+		padding-left:0.5cm;
+		padding-right:0.5cm;
+		;
+    }
+
+/*set background image for selected area. */	
+.background{background-image: url("img/main_background.jpg" );border: 5px solid black;padding:0.5cm 0.5cm}
+/*make the text visiable on the selected background.*/
+.transbox{background-color: #ffffff;margin:0.5cm;opacity: 0.6;padding-left:20px;padding-right:20px ;padding-top:20px}
+	
+/*Make all list looks different then other text.*/	
+.list{font-size:25px;border-width:1cm; border-color:pink; border-style:double dashed;padding-left:1cm}	
+.large_font{font-size:30px;font-family:Georgia}
+
+blockquote{font-family:cursive;font-size:25px;}
+
+address{text-align: center;padding-left:0.4cm}	
+.transbox2{background-color: #ffffff;font-weight:bold ;opacity: 0.5;margin:10px 0px}
+
+a:link {color:blue;font-size:20px}
+a:visited{color:green}
+a:active{color:red}
+a:hover {font-size: 180%; color:purple}
+	
+.copyright { text-align: right; font-size: small }

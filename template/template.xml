@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Assignment 1
+  SENG1050*/
+  NI ZENG*/
+  C3238805*/
+  DUE 18/09/2020*-->
+<!DOCTYPE goholiday SYSTEM "template.dtd">
+<goholiday>
+	<holidays>	
+		<luxury>
+			<packeage_name>luxury packeage l1</packeage_name>
+			<description>china</description>
+			<cost>$ 20,000</cost>
+			<number_nights>5</number_nights>
+			<popularity>5</popularity>
+			<accommodation>5 star hotel</accommodation>
+			<accommodation options= "location"> hotel</accommodation>
+			<coupon_code></coupon_code>
+			<reviews></reviews>
+			<picture>img\china01.jpg</picture>
+			
+			<url>https://www.chinahighlights.com/travelguide</url>
+			
+			<travel_date>
+				<date></date>
+				<month></month>
+				<year></year>
+			</travel_date>
+			
+			<saved>&dollor;</saved>			
+		</luxury>
+
+		<luxury>
+			<packeage_name>luxury packeage l2</packeage_name>
+			<description>singapore</description>
+			<cost>$ 20,000</cost>
+			<number_nights>5</number_nights>
+			<popularity>5</popularity>
+			<accommodation>5 star hotel</accommodation>
+			<accommodation options= "location"> hotel</accommodation>
+			<coupon_code></coupon_code>
+			<reviews></reviews>
+			<picture>img\singapore01.jpg</picture>
+			
+			<url>https://theblondeabroad.com/ultimate-singapore-travel-guide</url>
+			
+			<travel_date>
+				<date></date>
+				<month></month>
+				<year></year>
+			</travel_date>
+			
+			<saved>&dollor;</saved>			
+		</luxury>
+		
+		<luxury>
+			<packeage_name>luxury packeage l3</packeage_name>
+			<description>france</description>
+			<cost>$ 20,000</cost>
+			<number_nights>5</number_nights>
+			<popularity>5</popularity>
+			<accommodation>5 star hotel</accommodation>
+			<accommodation options= "location"> hotel</accommodation>
+			<coupon_code></coupon_code>
+			<reviews></reviews>
+			<picture>img\france01.jpg</picture>
+			
+			<url>https://www.roughguides.com/destinations/europe/france</url>
+			
+			<travel_date>
+				<date></date>
+				<month></month>
+				<year></year>
+			</travel_date>
+			
+			<saved>&dollor;</saved>			
+		</luxury>
+		
+	</holidays>
+</goholiday>
+
+

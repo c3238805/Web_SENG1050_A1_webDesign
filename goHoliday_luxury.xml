@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Assignment 1
+  SENG1050*/
+  NI ZENG*/
+  C3238805*/
+  DUE 18/09/2020*-->
+<!DOCTYPE goholiday 
+[
+  <!ELEMENT goholiday (holidays*)>  
+  
+  <!ELEMENT holidays (luxury+)>
+  
+  <!ELEMENT luxury (packeage_name,description,cost,number_nights,popularity,accommodation+,coupon_code?,reviews*,picture+,url+,travel_date?,saved?)>
+  
+  <!ELEMENT packeage_name (#PCDATA)>  
+  <!ELEMENT description (#PCDATA)>
+  <!ELEMENT cost (#PCDATA)>  
+  <!ELEMENT number_nights (#PCDATA )>
+  <!ELEMENT popularity (#PCDATA)>
+  
+  <!ELEMENT accommodation (#PCDATA)>
+  <!ATTLIST accommodation options (location|additional_cost) #REQUIRED>
+  
+  <!ELEMENT coupon_code (#PCDATA)>
+  <!ELEMENT reviews (#PCDATA)>  
+  <!ELEMENT picture (#PCDATA)>
+  <!ELEMENT url (#PCDATA)>
+  
+  <!ELEMENT travel_date (date,month,year)>
+  <!ELEMENT date (#PCDATA)>
+  <!ELEMENT month (#PCDATA)>
+  <!ELEMENT year (#PCDATA)>
+   
+  <!ELEMENT saved (#PCDATA)>   
+  <!ENTITY dollor "$">
+
+]>
+
+<goholiday>
+	<holidays>	
+		<luxury>
+			<packeage_name>luxury packeage l1</packeage_name>
+			<description>china</description>
+			<cost>$ 20,000</cost>
+			<number_nights>5</number_nights>
+			<popularity>5</popularity>
+			<accommodation>5 star hotel</accommodation>
+			<accommodation options= "location"> hotel</accommodation>
+			<coupon_code>C003</coupon_code>
+			<reviews>GOOD</reviews>
+			<picture>img/china01.jpg</picture>
+			
+			<url>https://www.chinahighlights.com/travelguide</url>
+			
+			<travel_date>
+				<date></date>
+				<month></month>
+				<year></year>
+			</travel_date>
+			
+			<saved>&dollor;</saved>			
+		</luxury>
+
+		<luxury>
+			<packeage_name>luxury packeage l2</packeage_name>
+			<description>singapore</description>
+			<cost>$ 20,000</cost>
+			<number_nights>5</number_nights>
+			<popularity>5</popularity>
+			<accommodation>5 star hotel</accommodation>
+			<accommodation options= "location"> hotel</accommodation>
+			<coupon_code>C001</coupon_code>
+			<reviews>VERY GOOD</reviews>
+			<picture>img/singapore01.jpg</picture>
+			
+			<url>https://theblondeabroad.com/ultimate-singapore-travel-guide</url>
+			
+			<travel_date>
+				<date></date>
+				<month></month>
+				<year></year>
+			</travel_date>
+			
+			<saved>&dollor;</saved>			
+		</luxury>
+		
+		<luxury>
+			<packeage_name>luxury packeage l3</packeage_name>
+			<description>france</description>
+			<cost>$ 20,000</cost>
+			<number_nights>5</number_nights>
+			<popularity>5</popularity>
+			<accommodation>5 star hotel</accommodation>
+			<accommodation options= "location"> hotel</accommodation>
+			<coupon_code>C002</coupon_code>
+			<reviews>GOOD</reviews>
+			<picture>img/france01.jpg</picture>
+			
+			<url>https://www.roughguides.com/destinations/europe/france</url>
+			
+			<travel_date>
+				<date></date>
+				<month></month>
+				<year></year>
+			</travel_date>
+			
+			<saved>&dollor;</saved>			
+		</luxury>
+		
+	</holidays>
+</goholiday>
+
+
